@@ -8,7 +8,12 @@ I'm new to Atari programming and this project is a result of me trying to get st
 ## General instructions
 
 Each subdirectory in this repository is meant to be copied and used as a skeleton project for VisualStudioCode.
-I'll be using [Atari800 Emulator](https://atari800.github.io/) to run programs on PC and I'll assume it's available to via CLI.
+
+### Tools
+
+* [Visual Studio Code](https://code.visualstudio.com/) to write code.
+* [Atari800 Emulator](https://atari800.github.io/) to run programs on PC. I'll assume it's available to via CLI.
+* [Atari-tools](https://github.com/jhallen/atari-tools) to manipulate .atr images.
 
 ### Workflow
 
