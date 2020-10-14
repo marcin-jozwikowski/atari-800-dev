@@ -33,8 +33,10 @@ Each language will have its specific actions described but there are typically t
 
 ## Per-language instructions
 
-* [Atari BASIC](AtariBASIC/README.mc)
+* [Atari BASIC](AtariBASIC/README.md)
 
 ## Knowledge sources
 
-All the places I've gained my knowledge from.
+Each language has its own links set.
+
+Since I'm Polish and Polish Atari community is very active and supportive many of links in these sections are in Polish. Use Google Translate.
