@@ -1,6 +1,3 @@
-echo "10" > h1_drive/BUILT.BAS
-cat $FILE >> h1_drive/BUILT.BAS
-echo "" >> h1_drive/BUILT.BAS
-echo "RUN" >> h1_drive/BUILT.BAS
-echo "" >> h1_drive/BUILT.BAS
+echo "1" > h1_drive/_CODE.BAS
+cat $FILE >> h1_drive/_CODE.BAS
 atari800 -xl -no-autosave-config -basic -H1 h1_drive/ -hreadwrite tools/AutoBAS.atr
