@@ -4,9 +4,18 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "make",
+            "label": "load",
             "type": "shell",
-            "command": "FILE=${file} && . tools/build.sh",
+            "command": "AUTORUN=0 FILE=${file} && . tools/build.sh",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "load and run",
+            "type": "shell",
+            "command": "AUTORUN=1 FILE=${file} && . tools/build.sh",
             "group": {
                 "kind": "build",
                 "isDefault": true
