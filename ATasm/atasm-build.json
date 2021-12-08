@@ -1,0 +1,8 @@
+{
+    "input": "example.asm",
+    "includes": [],
+    "outputFolder": "out",
+    "params": "-v",
+    "symbols": ["TEST=1"],
+    "withDebug": true
+}
