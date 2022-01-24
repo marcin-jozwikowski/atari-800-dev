@@ -1,5 +1,5 @@
 echo "10" > h1_drive/_CODE.BAS
-cat $FILE >> h1_drive/_CODE.BAS
+cat "$FILE" >> h1_drive/_CODE.BAS
 echo "" >> h1_drive/_CODE.BAS
 echo $AUTORUN
 if [ $AUTORUN -gt 0 ]; then
