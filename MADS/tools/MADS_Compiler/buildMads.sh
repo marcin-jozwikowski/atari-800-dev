@@ -7,7 +7,7 @@ cd Mad-Assembler-2.1.3/
 docker run --rm -it -u $UID -v $(pwd):/source cmplopes/alpine-freepascal fpc -Mdelphi -v mads.pas
 chown $(id -u):$(id -g) mads
 chmod +x mads
-mv mads ../../mads
+mv mads ../mads
 cd ..
 rm Mad-Assembler-2.1.3/ -rf
 docker image rm cmplopes/alpine-freepascal:latest
