@@ -12,8 +12,15 @@ Each subdirectory in this repository is meant to be copied and used as a skeleto
 ### Tools
 
 * [Visual Studio Code](https://code.visualstudio.com/) to write code.
-* [Atari800 Emulator](https://atari800.github.io/) to run programs on PC. I'll assume it's available to via CLI.
+* [Atari800 Emulator](https://atari800.github.io/) to run programs on PC.
+* [Altirra Emulator](https://www.virtualdub.org/altirra.html) to easily debug programs.
 * [Atari-tools](https://github.com/jhallen/atari-tools) to manipulate .atr images.
+
+### Pre-requisites
+
+I'm assuming that `altirra` is available as a command or an alias via CLI. If not `atari800` is being used as a fallback.
+
+You can create those aliases/commands or just edit the scritps in `./tools/` to match your local configuration.
 
 ### Workflow
 
@@ -21,8 +28,7 @@ All languages follow the same steps:
 
 1. Write the code on a PC using VSCode
 1. Compile to executable (when needed and available)
-1. Create an .atr image with final file
-1. Boot emulation using that image to run the program
+1. Boot emulation using output to run the program
 
 ### Moving software to real Atari
 
@@ -35,6 +41,7 @@ Each language will have its specific actions described but there are typically t
 
 * [Atari BASIC](AtariBASIC/README.md)
 * [ATasm](ATasm/README.md)
+* [MADS](MADS/README.md)
 
 ## Knowledge sources
 
