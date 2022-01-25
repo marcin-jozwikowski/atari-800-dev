@@ -13,14 +13,21 @@ Each subdirectory in this repository is meant to be copied and used as a skeleto
 
 * [Visual Studio Code](https://code.visualstudio.com/) to write code.
 * [Atari800 Emulator](https://atari800.github.io/) to run programs on PC.
-* [Altirra Emulator](https://www.virtualdub.org/altirra.html) to easily debug programs.
+* [Altirra Emulator](https://www.virtualdub.org/altirra.html) to easily debug programs. It works quite fine under WINE.
 * [Atari-tools](https://github.com/jhallen/atari-tools) to manipulate .atr images.
 
 ### Pre-requisites
 
+#### Emulation
+
 I'm assuming that `altirra` is available as a command or an alias via CLI. If not `atari800` is being used as a fallback.
 
 You can create those aliases/commands or just edit the scritps in `./tools/` to match your local configuration.
+
+#### Pluging
+
+Visit the `Extensions` tab of your VSCode and search for `@recommended` to see and install plugins recommended for each language.
+
 
 ### Workflow
 
@@ -32,16 +39,16 @@ All languages follow the same steps:
 
 ### Moving software to real Atari
 
-Each language will have its specific actions described but there are typically two possibilities:
+Each language might have its specific actions described but there are typically two possibilities:
 
 * Use some sort of SIO2SD and copy final program to SD card and run it on Atari
 * Create .atr file with the final program; use ATR2CAS to make a wave file and finally record that file to a cassette and boot from it.
 
 ## Per-language instructions
 
-* [Atari BASIC](AtariBASIC/README.md)
-* [ATasm](ATasm/README.md)
-* [MADS](MADS/README.md)
+* [Atari BASIC](./AtariBASIC/)
+* [ATasm](./ATasm/)
+* [MADS](./MADS/)
 
 ## Knowledge sources
 
