@@ -1,0 +1,3 @@
+PROC Hello()
+   PrintE("Hello World!")
+RETURN
