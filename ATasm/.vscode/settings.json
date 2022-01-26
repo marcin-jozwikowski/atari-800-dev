@@ -1,3 +1,3 @@
 {
-    "atasm-altirra-bridge.emulator.altirra.path": "./tools/run_altirra_wine.sh"
+    "atasm-altirra-bridge.emulator.altirra.path": "./tools/run.sh"
 }
