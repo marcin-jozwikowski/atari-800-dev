@@ -7,8 +7,11 @@
             "label": "load",
             "type": "shell",
             "command": "AUTORUN=0 FILE='${file}' . tools/build.sh",
+            "windows": {
+                "command": ". tools/build.bat '${file}' 0"
+            },
             "group": {
-                "kind": "build",
+                "kind": "build",    
                 "isDefault": true
             }
         },
@@ -16,6 +19,9 @@
             "label": "load and run",
             "type": "shell",
             "command": "AUTORUN=1 FILE='${file}' . tools/build.sh",
+            "windows": {
+                "command": ". tools/build.bat '${file}' 1"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
