@@ -1,4 +1,3 @@
-10 COLOR 1
-20 SETCOLOR 2,INT(RND(1)*16), INT(RND(1)*8)*2
-30 FOR N=0 TO 500: NEXT N
-40 GOTO 20
+1 REM Example code for AtariBASIC - draw a maze
+10 I=6: IF RND(1)>0.5 THEN I=7
+20 ?CHR$(I);: GOTO 10
