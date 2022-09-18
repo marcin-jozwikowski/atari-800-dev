@@ -1,3 +1,6 @@
 {
-    "atasm-altirra-bridge.emulator.altirra.path": "./tools/run.sh"
+    // "atasm-altirra-bridge.emulator.altirra.path": "./tools/run.sh", // Altirra under Ubuntu
+    // "atasm-altirra-bridge.emulator.altirra.path": "./tools/run_atari800.sh", // atari800 under Ubuntu
+    // "atasm-altirra-bridge.emulator.altirra.path": "./tools/run_atari800.bat", // atari800 under Windows
+    "atasm-altirra-bridge.assembler.whichAssembler": "ATasm"
 }

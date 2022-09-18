@@ -20,7 +20,7 @@ Each subdirectory in this repository is meant to be copied and used as a skeleto
 
 #### Emulation
 
-I'm assuming that `altirra` is available as a command or an alias via CLI. If not `atari800` is being used as a fallback.
+It is assumed that `atari800` is available as a command or an alias via CLI.
 
 You can create those aliases/commands or just edit the scritps in `./tools/` to match your local configuration.
 
