@@ -2,7 +2,7 @@
 
 ## Instructions
 
-This workspace is mainly based on `cerebus.atasm-altirra-bridge` plugin. It's [homepage](https://marketplace.visualstudio.com/items?itemName=cerebus.atasm-altirra-bridge) will give you all instructions you'll need.
+This workspace is mainly based on `cerebus.atasm-altirra-bridge` plugin. Its [homepage](https://marketplace.visualstudio.com/items?itemName=cerebus.atasm-altirra-bridge) will give you all instructions you'll need.
 
 To change file being compiled modify `atasm-build.json` file - precisely the `input` field.
 
@@ -16,8 +16,12 @@ For running altirra emulator under Ubuntu I recommend installing it under WINE a
 
 For running atari800 use value marked `atari800 under Ubuntu` in `.vscode/settings.json`.
 
+In both cases fill in the full path of your project directory.
+
 ## Emulation under Windows
 
 Atasm Altirra Bridge comes with Altirra already built in and working without any changes required.
 
 To run atari800 use value marked `atari800 under Windows` in `.vscode/settings.json`.
+
+Fill in the full path of your project directory.
