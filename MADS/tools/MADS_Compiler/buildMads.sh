@@ -1,13 +1,15 @@
 #!/bin/bash
 
-wget https://github.com/tebe6502/Mad-Assembler/archive/refs/tags/2.1.3.zip
-unzip 2.1.3.zip
-rm 2.1.3.zip
-cd Mad-Assembler-2.1.3/
-docker run --rm -it -u $UID -v $(pwd):/source cmplopes/alpine-freepascal fpc -Mdelphi -v mads.pas
-chown $(id -u):$(id -g) mads
+VERSION=2.1.5
+IMAGE=freepascal/fpc:latest-slim
+wget https://github.com/tebe6502/Mad-Assembler/archive/refs/tags/$VERSION.zip
+unzip $VERSION.zip
+rm $VERSION.zip
+cd Mad-Assembler-$VERSION/
+docker run --rm --user "$(id -u)":"$(id -g)" -v "$PWD":/usr/src/myapp -w /usr/src/myapp $IMAGE fpc -Mdelphi -v mads.pas
 chmod +x mads
 mv mads ../mads
+mv mads.exe ../mads.exe
 cd ..
-rm Mad-Assembler-2.1.3/ -rf
-docker image rm cmplopes/alpine-freepascal:latest
+rm Mad-Assembler-$VERSION/ -rf
+docker image rm $IMAGE
