@@ -2,8 +2,7 @@
 
 ## Instructions
 
-This workspace is mainly based on `Using Atari800 config file: /home/mjozwikowski/.atari800.cfg
-` plugin and its ability to use MADS instead of ATasm. Its [homepage](https://marketplace.visualstudio.com/items?itemName=cerebus.atasm-altirra-bridge) will give you all instructions you'll need.
+This workspace is mainly based on `cerebus.atasm-altirra-bridge` plugin and its ability to use MADS instead of ATasm. Its [homepage](https://marketplace.visualstudio.com/items?itemName=cerebus.atasm-altirra-bridge) will give you all instructions you'll need.
 
 To change file being compiled modify `atasm-build.json` file - precisely the `input` field.
 
